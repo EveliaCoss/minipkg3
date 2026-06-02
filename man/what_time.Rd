@@ -2,13 +2,19 @@
 % Please edit documentation in R/time.R
 \name{what_time}
 \alias{what_time}
-\title{Title}
+\title{Current time}
 \usage{
 what_time(language = "es")
 }
 \arguments{
-\item{language}{}
+\item{language}{Language either "es" (Spanish) or "en" (English)}
+}
+\value{
+A character string
 }
 \description{
-Title
+Returns a sentence with the current time
+}
+\examples{
+what_time()
 }
