@@ -1,0 +1,14 @@
+---
+title: "minipk3"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{minipk3}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r setup}
+library(minipkg3)
+```
+
+Puedo explicar y mostrar lo que hace el paquete.
